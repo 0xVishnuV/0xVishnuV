@@ -1,109 +1,128 @@
-# [Your Name] - Portfolio
+## 📌 About Me
 
-<img src="your-profile-picture.jpg" width="200" height="200" alt="Your Name">
+Hello! I’m a Umesh Udayakumar and **Security Researcher** with expertise in discovering and exploiting security flaws in software, networks, and applications. With certifications like **OSCP** and **CEH**, I’ve worked on various security engagements for clients in industries such as finance, healthcare, and technology. 
 
-**Hi there!** I'm Vishnu V, a pentester with a passion for cybersecurity.
-
-**Projects**
-
-| Project Name | Description | Link |
-|---|---|---|
-| [Project 1 Name] | [Short description] | [Link to Project 1] |
-| [Project 2 Name] | [Short description] | [Link to Project 2] |
-| [Project 3 Name] | [Short description] | [Link to Project 3] |
-
-**Skills**
-
-* **Programming Languages:** Python, JavaScript, C++
-* **Frameworks/Libraries:** React, TensorFlow, NumPy, Pandas
-* **Tools:** Git, Docker, AWS, Figma
-
-**Contact**
-
-* **Email:** [Your Email Address]
-* **LinkedIn:** [Your LinkedIn Profile URL]
-* **Website:** [Your Personal Website URL (optional)]
-
-**About Me**
-
-[Write a brief bio about yourself, your interests, and your career goals.]
-
-**Contributions**
-
-I'm always open to collaborating on projects and contributing to open-source initiatives. Feel free to reach out to me or fork my repositories to explore and experiment.
-
-**License**
-
-[Specify the license for your portfolio, e.g., MIT License]# [Your Name] - Pentesting Portfolio
-
-**Welcome to my Pentesting Portfolio!**
-
-This repository showcases my work in the field of cybersecurity, specifically focusing on penetration testing and vulnerability assessment. 
-
-**Projects:**
-
-* **[Project 1 Name]:** 
-    * [Short Description of Project 1, e.g., "Web Application Pentest Report on [Target Website]", "Network Penetration Test Report on [Target Network]"]
-    * [Link to Project 1 (e.g., GitHub repository, report PDF)]
-* **[Project 2 Name]:** 
-    * [Short Description of Project 2]
-    * [Link to Project 2]
-* **[Project 3 Name]:** 
-    * [Short Description of Project 3]
-    * [Link to Project 3]
-
-**Skills:**
-
-* **Vulnerability Assessment:** 
-    * Web Application Security (OWASP Top 10, XSS, SQL Injection, CSRF)
-    * Network Security (Port Scanning, Network Mapping, Vulnerability Scanning)
-    * Wireless Security (Wi-Fi Cracking, Bluetooth Hacking)
-    * Social Engineering 
-* **Tools:**
-    * Kali Linux
-    * Metasploit 
-    * Nmap
-    * Wireshark
-    * Burp Suite
-    * OWASP ZAP
-    * JohnTheRipper
-
-**Certifications:**
-
-* [List any relevant certifications, e.g., CompTIA Security+, CEH, OSCP]
-
-**Contact:**
-
-* **Email:** [Your Email Address]
-* **LinkedIn:** [Your LinkedIn Profile URL] 
-
-**About Me:**
-
-[Write a brief bio about yourself, your interests in cybersecurity, and your career goals.]
-
-**Contributions:**
-
-I'm always eager to learn and improve my skills. I'm open to collaborating on projects and contributing to the cybersecurity community. 
-
-**Disclaimer:**
-
-* All pentesting activities were conducted with proper authorization and consent. 
-* This portfolio is for educational and informational purposes only. 
-
-**License:**
-
-[Specify the license for your portfolio, e.g., MIT License]
+I’m passionate about staying up-to-date with the latest vulnerabilities, tools, and techniques. This portfolio showcases my journey through Capture The Flag (CTF) challenges, bug bounty programs, and penetration testing engagements.
 
 ---
 
-**Key Considerations:**
+## 🛠️ Skills & Tools
 
-* **Focus on Impact:** Highlight the impact of your findings in your project descriptions. Did you identify critical vulnerabilities? Did your work improve the security posture of the target?
-* **Ethical Conduct:** Emphasize ethical and responsible pentesting practices throughout your portfolio.
-* **Project Variety:** Include a variety of projects to demonstrate a breadth of skills (web applications, networks, wireless, etc.).
-* **Clear and Concise Reports:** If you're including reports, ensure they are well-written, professional, and easy to understand.
-* **Visuals:** Consider adding diagrams, screenshots, or other visuals to enhance your portfolio.
-* **Keep it Updated:** Regularly update your portfolio with new projects and skills.
+I utilize a wide range of tools and skills throughout my penetration testing process. Below are some of the key tools and techniques I use to discover, exploit, and mitigate vulnerabilities:
 
+### **Reconnaissance & OSINT**
+- **Nmap**: Network discovery and vulnerability scanning.
+- **Amass**, **Sublist3r**: Subdomain enumeration and passive reconnaissance.
+- **Shodan**, **Censys**: Internet-wide scanning for exposed devices and services.
 
-This README provides a solid foundation for your Pentesting portfolio. Remember to tailor it to your specific experiences and goals. Good luck!
+### **Web Application Security**
+- **Burp Suite**: Web application proxy for vulnerability scanning and exploitation.
+- **SQLmap**: Automated SQL Injection exploitation.
+- **OWASP ZAP**: Web application scanner and vulnerability testing.
+- **Nikto**: Web server scanner for common security issues.
+
+### **Exploitation & Post-Exploitation**
+- **Metasploit Framework**: Exploit development and automation.
+- **Empire**: PowerShell-based post-exploitation framework.
+- **Mimikatz**: Credential dumping from Windows systems.
+- **Responder**, **CrackMapExec**: SMB/NetSession enumeration and exploitation.
+
+### **Programming & Scripting**
+- **Python**, **Bash**, **PowerShell**: Writing custom scripts to automate tasks like scanning, exploitation, and reporting.
+- **JavaScript**: Writing and modifying payloads for XSS, CSRF, etc.
+
+---
+
+## 📂 Portfolio Projects
+
+Here are some selected projects showcasing the various penetration tests, CTF challenges, and bug bounties I’ve worked on. Each section contains detailed reports, methodologies, and proof-of-concept exploits.
+
+### Capture the Flag (CTF) Challenges
+
+#### **Hack The Box - Lame**
+- **Objective**: Exploit SMB vulnerability (MS08-067) to gain initial access, then escalate privileges.
+- **Tools Used**: Nmap, Metasploit, Netcat, John the Ripper.
+- **Write-up**: [Hack The Box - Lame Write-up](./projects/CTF/htb-lame/writeup.md)
+
+#### **TryHackMe - Blue**
+- **Objective**: Penetration test a vulnerable Windows machine, exploiting MS08-067 and escalating privileges.
+- **Tools Used**: Nmap, Netcat, Metasploit, PowerShell.
+- **Write-up**: [TryHackMe - Blue Write-up](./projects/CTF/tryhackme-blue/writeup.md)
+
+#### **Pwnable.kr - Baby Pwn**
+- **Objective**: Exploit a buffer overflow vulnerability in a vulnerable binary.
+- **Tools Used**: GDB, Python, pwntools.
+- **Write-up**: [Pwnable.kr - Baby Pwn Write-up](./projects/CTF/pwnablekr-baby-pwn/writeup.md)
+
+---
+
+### Bug Bounty Reports
+
+#### **XYZ Corp - IDOR Vulnerability**
+- **Objective**: Discovered an Insecure Direct Object Reference (IDOR) vulnerability in an internal API, allowing unauthorized access to other users' data.
+- **Impact**: Critical — Potential data leak or unauthorized actions.
+- **Tools Used**: Burp Suite, Postman.
+- **Write-up**: [Bug Bounty - XYZ Corp IDOR Report](./projects/bug_bounties/xyz-corp-idor/report.md)
+
+#### **ABC.com - Cross-Site Scripting (XSS)**
+- **Objective**: Found a stored XSS vulnerability on the comment section of a blog platform that allowed an attacker to execute JavaScript.
+- **Impact**: Medium — Could lead to credential theft, session hijacking.
+- **Tools Used**: Burp Suite, OWASP ZAP.
+- **Write-up**: [Bug Bounty - ABC XSS Report](./projects/bug_bounties/abc-xss/report.md)
+
+---
+
+### Penetration Testing Engagements
+
+#### **Client Engagement 1: Web Application Security Assessment**
+- **Objective**: Perform a comprehensive web application security assessment for a financial institution, identify vulnerabilities, and recommend mitigations.
+- **Tools Used**: Burp Suite, Nikto, SQLmap, OWASP ZAP.
+- **Findings**: Identified SQL injection, Cross-Site Scripting (XSS), and weak password policies.
+- **Report**: [Download the Report](./reports/client1-webapp-engagement.pdf)
+
+#### **Client Engagement 2: Internal Network Security Assessment**
+- **Objective**: Assess the internal network of a healthcare organization to find vulnerabilities and improve security posture.
+- **Tools Used**: Nmap, Nessus, Metasploit, CrackMapExec.
+- **Findings**: Discovered outdated services, SMB vulnerabilities, and inadequate internal segmentation.
+- **Report**: [Download the Report](./reports/client2-network-engagement.pdf)
+
+---
+
+## 📝 Scripts & Tools
+
+I have created a variety of custom scripts and tools to aid in penetration testing activities. Below are a few examples:
+
+- **Recon Tools**: A Python script that automates subdomain enumeration and IP address discovery using Shodan API.
+  - [View Script](./tools/recon_tools.py)
+
+- **SQL Injection PoC**: A Python script to demonstrate SQL Injection vulnerabilities on a vulnerable web page.
+  - [View Script](./tools/sql_injection_poc.py)
+
+- **Metasploit Automation**: A Bash script to automate common exploitation techniques with Metasploit.
+  - [View Script](./tools/metasploit_automation.py)
+
+---
+
+## 📝 Reports & Write-ups
+
+This section contains full penetration testing reports and detailed write-ups of various engagements. These reports demonstrate my approach, findings, exploitation techniques, and remediation suggestions.
+
+- **Sample Penetration Test Report 1: Web Application**  
+  A comprehensive report on a web application security assessment, detailing findings from an engagement.
+  - [Download the Report](./reports/webapp-pentest-report1.pdf)
+
+- **Sample Bug Bounty Write-up 1**  
+  Detailed write-up of a bug bounty report submission, demonstrating an XSS vulnerability.
+  - [View Write-up](./reports/bug-bounty-writeup1.md)
+
+---
+
+## 📬 Contact Me
+
+I’m open to new opportunities, collaborations, and discussions about cybersecurity! You can reach me via:
+
+- **LinkedIn**: [My LinkedIn](https://linkedin.com/in/your-profile)
+- **Twitter**: [My Twitter](https://twitter.com/your-profile)
+- **Email**: umeshudayakumar320@gmail.com
+
+Feel free to contact me for professional inquiries or cybersecurity advice!
